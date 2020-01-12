@@ -8,16 +8,22 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <h1 id="bigOne">This is all a Test</h1>
+    <div>
+        <input type="email" name="login" id="emailInput" placeholder="email"/>
+        <input type="password" name="password" id="passwordInput" placeholder="password"/>
+        <button type="submit" id="loginBtn">Log In</button>
+    </div>
+    <div>
+        <p id="loginStatus"></p>
+    </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js   "></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="/__/firebase/7.6.2/firebase-analytics.js"></script>
-
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
 
     <!-- my main script -->
     <script src="js/index.js"></script>
