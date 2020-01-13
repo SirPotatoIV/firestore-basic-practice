@@ -9,14 +9,31 @@
 </head>
 <body>
     <h1 id="bigOne">This is all a Test</h1>
+    
     <div>
         <input type="email" name="login" id="emailInput" placeholder="email"/>
         <input type="password" name="password" id="passwordInput" placeholder="password"/>
         <button type="submit" id="loginBtn">Log In</button>
     </div>
+    
     <div>
-        <p id="loginStatus"></p>
+        <p id="loginStatus">Waiting on Login Status</p>
     </div>
+    
+    <div>
+        <h2>Best Animal</h2>
+    </div>
+    
+    <div>
+        <input type="radio" id="petChoice1" name="pet" value="dog">
+        <label for="petChoice1">Dog</label>
+
+        <input type="radio" id="petChoice2" name="pet" value="cat">
+        <label for="petChoice2">Cat</label>
+
+        <button type="submit">vote</button>
+    </div>
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js   "></script>
 
