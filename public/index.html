@@ -21,19 +21,18 @@
     </div>
     
     <div>
-        <h2>Best Animal</h2>
+        <h2>Best Pet: <span id="petDisplay"></span></h"petDisplay"2"petDisplay">
     </div>
     
     <div>
-        <input type="radio" id="petChoice1" name="pet" value="dog">
-        <label for="petChoice1">Dog</label>
+        <input type="radio" id="dogChoice" name="pet" value="dog">
+        <label for="dogChoice">Dog</label>
 
-        <input type="radio" id="petChoice2" name="pet" value="cat">
-        <label for="petChoice2">Cat</label>
+        <input type="radio" id="catChoice" name="pet" value="cat">
+        <label for="catChoice">Cat</label>
 
-        <button type="submit">vote</button>
+        <button type="submit" id="voteBtn">vote</button>
     </div>
-
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js   "></script>
 
@@ -41,6 +40,8 @@
         https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+
 
     <!-- my main script -->
     <script src="js/index.js"></script>
